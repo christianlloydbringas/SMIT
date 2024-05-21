@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Name - Homepage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Background image */
+        body {
+            background-image: url('school.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+        }
+
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+  
+
+        #banner h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 90px; /* Adjust the width as needed */
+            height: auto; /* To maintain aspect ratio */
+            order: -1; /* Move the logo to the beginning of the flex container */
+        }
+
+        /* Styles for Sticky Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            z-index: 1000; /* Ensure header stays on top of other content */
+        }
+
+        .logo {
+            width: 70px; /* Adjust the width as needed */
+            height: auto; /* To maintain aspect ratio */
+            margin-right: 50px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            margin-right: 20px;
+            margin-left: 50px;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Adjust content position to account for fixed header */
+        body {
+            margin-top: 80px; /* Adjust according to header height */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="logo.jpg" alt="School Name Logo" class="logo"> <!-- Your logo here -->
+            <h1>Welcome to School Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li> <!-- Link to Courses section -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner">
+        <h2>Welcome to Our School</h2>
+        <p>Prepare for your future with our quality education</p>
+        <a href="https://web.facebook.com/SouthernMindanaoInstituteofTechnologyOfficialPage" class="btn">Learn More</a>
+    </section>
+
+
+    <section id="about" style="margin-top: 300px;">
+        <h2>About Us</h2>
+        <p>Southern Mindanao Institute of Technology is a dynamic Institution committed to excellent education.</p>
+    </section>
+    
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <p>Explore our range of courses...</p>
+        <ul>
+            <li><a>CHED Courses</a>
+                <ul>
+                    <li>4 YR. BACHELOR OF SCIENCE IN CRIMINOLOGY</li>
+                    <li>4 YR. BACHELOR OF SCIENCE IN INDUSTRIAL SECURITY MANAGEMENT</li>
+                    <li>4 YR. BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION</li>
+                    <li>-MAJORS: MARKETING MANAGEMENT, FINANCIAL MANAGEMENT, HUMAN RESOURCE MANAGEMENT</li>
+                    <li>4 YR. BACHELOR OF SECONDARY EDUCATION -MAJORS: ENGLISH, MATHEMATICS, FILIPINO, SCIENCE</li>
+                    <li>4 YR. BACHELOR OF EARLY CHILDHOOD EDUCATION</li>
+                    <li>4 YR. BACHELOR OF ELEMENTARY EDUCATION</li>
+                    <li>4 YR. BACHELOR OF TECHNICAL VOCATIONAL TEACHER EDUCATION</li>
+                    <li>-MAJORS: AUTOMOTIVE TECHNOLOGY, ELECTRICAL TECHNOLOGY, ELECTRONICS TECHNOLOGY, FOOD & SERVICE MANAGEMENT</li>
+                    <li>4 YR. BACHELOR OF ARTS IN COMMUNICATION</li>
+                    <li>4 YR. BACHELOR OF SCIENCE IN HOSPITALITY MANAGEMENT</li>
+                    <li>4 YR. BACHELOR OF SCIENCE IN MIDWIFERY</li>
+                    <li>4 YR. BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</li>
+                    <li>4 YR. BACHELOR OF SCIENCE IN INFORMATION SYSTEMS</li>
+                    <li>2 YR. ASSOCIATE IN HOSPITALITY MANAGEMENT</li>
+                    <li>2 YR. ASSOCIATE IN COMPUTER TECHNOLOGY</li>
+                    <li>2 YR. DIPLOMA IN MIDWIFERY</li>
+            <li><a>TESDA COURSES</a> 
+                    <li>FOOD AND BEVERAGES SERVICING NC II</li>
+                    <li>AUTOMOTIVE SERVICING NC II</li>
+                    <li>COMMERCIAL COOKING NC II</li>
+                    <li>DRIVING NC II</li>
+                    <li>COMPUTER SYSTEM SERVICING NC II</li>
+                    <li>HOUSEKEEPING SERVICES NC II</li>
+                    <li>AUTOMOTIVE SERVICING NC I</li>
+            <li><a>BASIC EDUCATION CURRICULUM</a>
+                <li>GRADE 1-6 / GRADE 7-10</li>
+                            <li><a>SENIOR HIGH SCHOOL GRADE 11-12</a>  
+                                <li>A. ACADEMIC</li>
+                            <li> HUMMS (Humanities Social Science)</li>
+                                <li> ABM O(Accounting & Business Management)</li>
+                                    <li> B. TVL- Technical & Vocational/Livelihood</li>
+                                        <li> ICT-Information Communication Technology</li>
+                                            <li> *Computer System Servicing NC II</li>
+                                                <li> Home Economics        </li>                   
+                                                    <li>  Cookery NC II     </li>                         
+                                                        <li>  Food and Beverages Servicing NC II  </li>                            
+                                                            <li>  * Housekeeping NC II     </li>                        
+                                                                <li>   Industrial Arts    </li>                           
+                                                                    <li>  *Automotive Servicing NC II</li>
+                </ul>
+            </li>
+           
+    
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="https://web.facebook.com/SouthernMindanaoInstituteofTechnologyOfficialPage">https://www.facebook.com/Southern</a></p>
+        <p>Phone: (064) 200 3549</p>
+        <p>Address: Brgy. Buenaflor, National Highway, Tacurong, Philippines, 9800</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Southern Mindanao Instituteof Technology Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
